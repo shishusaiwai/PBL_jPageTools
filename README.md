@@ -1,2 +1,2 @@
 # PBL_jPageTools
-tools lib for pages
+Support for Firefox/Chrome/Weixin

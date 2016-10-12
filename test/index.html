@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PBL_jPageTools测试界面</title>
+  <script type="text/javascript" src="../src/main.js"></script>
+</head>
+<body>
+  <button id="jitterBtn" onclick="console.log('抖动测试')">抖动测试，快速点击</button>
+  <script type="text/javascript">
+  var pbl = new PBL({debug: true, jitterBtnIDs: ["jitterBtn"]});
+  throw new Error("oh oh");
+  </script>
+	
+</body>
+</html>
